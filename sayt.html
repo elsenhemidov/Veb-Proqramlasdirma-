@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AzTech müasir şirkətlər üçün ağıllı rəqəmsal həllər hazırlayır.">
+    <title>AzTech | Ağıllı Rəqəmsal Həllər</title>
+    <link rel="stylesheet" href="sayt.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Əsas naviqasiya">
+            <a class="logo" href="#home" aria-label="AzTech ana səhifə">
+                <span class="logo-mark">A</span>
+                AzTech
+            </a>
+
+            <button class="menu-button" type="button" aria-label="Naviqasiyanı aç">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#home">Ana səhifə</a></li>
+                <li><a href="#services">Xidmətlər</a></li>
+                <li><a href="#about">Haqqımızda</a></li>
+                <li><a href="#projects">Layihələr</a></li>
+                <li><a href="#team">Komanda</a></li>
+                <li><a href="#contact">Əlaqə</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" type="button">Dark</button>
+                <a class="btn btn-small" href="#contact">Başla</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" aria-labelledby="hero-title">
+            <div class="hero-overlay"></div>
+            <div class="container hero-grid">
+                <article class="hero-content">
+                    <p class="eyebrow">Korporativ IT və Texnologiya</p>
+                    <h1 id="hero-title">Ağıllı Rəqəmsal Həllər Qururuq</h1>
+                    <p class="hero-text">
+                        AzTech şirkətlərə təhlükəsiz veb saytlar, bulud sistemləri, şəbəkələr
+                        və rahat istifadə olunan rəqəmsal məhsullar hazırlamaqda kömək edir.
+                    </p>
+                    <div class="button-group">
+                        <a class="btn" href="#services">Xidmətlərə bax</a>
+                        <a class="btn btn-secondary" href="#projects">Layihələri gör</a>
+                    </div>
+                </article>
+
+                <aside class="hero-visual" aria-label="Texnologiya paneli görüntüsü">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Texnologiya paneli göstərən müasir noutbuk">
+                    <div class="floating-card">
+                        <strong>99.9%</strong>
+                        <span>Təhlükəsiz işləmə müddəti</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section" aria-labelledby="site-search-title">
+            <div class="container">
+                <form class="site-search" action="#" method="get">
+                    <label class="sr-only" for="site-search-input" id="site-search-title">Xidmət və layihə axtarışı</label>
+                    <input type="search" id="site-search-input" name="q" placeholder="Xidmət axtarın...">
+                    <button class="btn search-button" type="submit">Axtar</button>
+                </form>
+                <p class="search-message" id="search-message"></p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section services" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Nə edirik</p>
+                    <h2 id="services-title">Hər inkişaf mərhələsi üçün texnologiya xidmətləri</h2>
+                    <p>İlk buraxılışdan korporativ yenilənməyə qədər komandamız praktik və etibarlı həllər təqdim edir.</p>
+                </div>
+
+                <div class="card-grid services-grid">
+                    <article class="service-card" data-service="Web Development Veb İnkişaf">
+                        <span class="card-icon">&#9881;</span>
+                        <h3>Veb İnkişaf</h3>
+                        <p>Sürətli, əlçatan və responsiv saytlar, portallar və idarəetmə panelləri hazırlayırıq.</p>
+                    </article>
+                    <article class="service-card" data-service="Cyber Security Kiber Təhlükəsizlik">
+                        <span class="card-icon">&#128274;</span>
+                        <h3>Kiber Təhlükəsizlik</h3>
+                        <p>Risk analizi, monitorinq, sistem möhkəmləndirməsi və təhlükəsizlik planlaması.</p>
+                    </article>
+                    <article class="service-card" data-service="Cloud Computing Bulud Hesablamaları">
+                        <span class="card-icon">&#9729;</span>
+                        <h3>Bulud Hesablamaları</h3>
+                        <p>Buluda keçid, ehtiyat nüsxələr, yerləşdirmə prosesləri və infrastruktur optimizasiyası.</p>
+                    </article>
+                    <article class="service-card" data-service="Network Solutions Şəbəkə Həlləri">
+                        <span class="card-icon">&#128225;</span>
+                        <h3>Şəbəkə Həlləri</h3>
+                        <p>Ofis, data mərkəzi və hibrid şəbəkələr üçün stabil və ölçülə bilən arxitektura.</p>
+                    </article>
+                    <article class="service-card" data-service="UI/UX Design UI UX Dizayn">
+                        <span class="card-icon">&#10022;</span>
+                        <h3>UI/UX Dizayn</h3>
+                        <p>Aydın naviqasiya, yüksək istifadə rahatlığı və peşəkar məhsul interfeysləri.</p>
+                    </article>
+                    <article class="service-card" data-service="IT Consulting IT Konsaltinq">
+                        <span class="card-icon">&#128187;</span>
+                        <h3>IT Konsaltinq</h3>
+                        <p>Texnologiya yol xəritəsi, audit, vendor seçimi və rəqəmsal transformasiya dəstəyi.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about" aria-labelledby="about-title">
+            <div class="container about-grid">
+                <article>
+                    <p class="eyebrow">AzTech haqqında</p>
+                    <h2 id="about-title">Müasir komandalar üçün güvənilir texnologiya tərəfdaşı</h2>
+                    <p>
+                        Biz proqram mühəndisliyi, kiber təhlükəsizlik, bulud strategiyası və məhsul dizaynını
+                        birləşdirərək şirkətlərə stabil, aydın və böyüməyə hazır sistemlər qurmağa kömək edirik.
+                    </p>
+
+                    <div class="list-columns">
+                        <div>
+                            <h3>Prioritetlərimiz</h3>
+                            <ul class="check-list">
+                                <li>Təhlükəsiz arxitektura</li>
+                                <li>Responsiv istifadəçi təcrübəsi</li>
+                                <li>Oxunaqlı və dayanıqlı kod</li>
+                                <li>Ölçülə bilən performans</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h3>İş prosesimiz</h3>
+                            <ol class="number-list">
+                                <li>Tələbləri öyrənirik</li>
+                                <li>Həlli layihələndiririk</li>
+                                <li>Hazırlayır və test edirik</li>
+                                <li>Yayımlayır və dəstəkləyirik</li>
+                            </ol>
+                        </div>
+                    </div>
+                </article>
+
+                <aside class="stats-panel" aria-label="Şirkət statistikası">
+                    <div class="stat-card">
+                        <strong>120+</strong>
+                        <span>Layihə</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>50+</strong>
+                        <span>Müştəri</span>
+                    </div>
+                    <div class="stat-card">
+                        <strong>7+</strong>
+                        <span>İl təcrübə</span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects" id="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Seçilmiş işlər</p>
+                    <h2 id="projects-title">Son texnologiya layihələri</h2>
+                    <p>Güclü vizual görünüş, təmiz sistem quruluşu və etibarlı nəticə verən praktik layihələr.</p>
+                </div>
+
+                <div class="card-grid project-grid">
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=80" alt="Veb platforma planlayan komanda">
+                        <div class="project-body">
+                            <h3>FinCore Müştəri Portalı</h3>
+                            <p>Hesablar, analitika və dəstək sorğuları üçün təhlükəsiz müştəri paneli.</p>
+                            <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=80" alt="Şəbəkə işıqları olan server infrastrukturu">
+                        <div class="project-body">
+                            <h3>CloudOps Miqrasiyası</h3>
+                            <p>Avtomatik ehtiyat nüsxələr və real vaxt performans xəbərdarlıqları ilə hibrid bulud sistemi.</p>
+                            <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80" alt="Ekranda kiber təhlükəsizlik paneli">
+                        <div class="project-body">
+                            <h3>ShieldNet Təhlükəsizliyi</h3>
+                            <p>Şəbəkə təhlükəsizliyi auditi, endpoint qoruması və əməkdaşlar üçün maarifləndirmə proqramı.</p>
+                            <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="section team" id="team" aria-labelledby="team-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Komandamız</p>
+                    <h2 id="team-title">Sistemlərin arxasındakı mütəxəssislər</h2>
+                    <p>Təcrübəli IT mütəxəssisləri müasir, təhlükəsiz və etibarlı həllər üzərində birlikdə çalışır.</p>
+                </div>
+
+                <div class="card-grid team-grid">
+                    <article class="team-card" data-initials="EH">
+                        <h3>Elşən Həmidov</h3>
+                        <p>IT Mütəxəssisi</p>
+                    </article>
+                    <article class="team-card" data-initials="MS">
+                        <h3>Mirəziz Seyidzadə</h3>
+                        <p>IT Mütəxəssisi</p>
+                    </article>
+                    <article class="team-card" data-initials="XB">
+                        <h3>Xədicə Babayeva</h3>
+                        <p>IT Mütəxəssisi</p>
+                    </article>
+                    <article class="team-card" data-initials="NQ">
+                        <h3>Nüsrət Qədirli</h3>
+                        <p>IT Mütəxəssisi</p>
+                    </article>
+                    <article class="team-card" data-initials="KS">
+                        <h3>Kənan Salayev</h3>
+                        <p>IT Mütəxəssisi</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Table Section -->
+        <section class="section pricing" aria-labelledby="pricing-title">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Paketlər</p>
+                    <h2 id="pricing-title">Texniki dəstək üçün sadə qiymətlər</h2>
+                    <p>Cari əməliyyat ehtiyaclarınıza uyğun paketi seçin.</p>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <caption>AzTech xidmət paketləri</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Xüsusiyyət</th>
+                                <th scope="col">Əsas</th>
+                                <th scope="col">Standart</th>
+                                <th scope="col">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Aylıq qiymət</td>
+                                <td>$499</td>
+                                <td>$999</td>
+                                <td>$1,999</td>
+                            </tr>
+                            <tr>
+                                <td>Dəstək saatı</td>
+                                <td>10</td>
+                                <td>25</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>Təhlükəsizlik yoxlaması</td>
+                                <td>Rüblük</td>
+                                <td>Aylıq</td>
+                                <td>Həftəlik</td>
+                            </tr>
+                            <tr>
+                                <td>Bulud monitorinqi</td>
+                                <td>&#10003;</td>
+                                <td>&#10003;</td>
+                                <td>&#10003;</td>
+                            </tr>
+                            <tr>
+                                <td>Fərdi konsultant</td>
+                                <td>&mdash;</td>
+                                <td>&#10003;</td>
+                                <td>&#10003;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="section media-section" aria-labelledby="media-title">
+            <div class="container media-grid">
+                <article>
+                    <p class="eyebrow">Video</p>
+                    <h2 id="media-title">Müasir Texnologiya Dünyası</h2>
+                    <p>
+                        Kiber təhlükəsizlik, server infrastrukturu və kodlaşdırma mühitlərinin
+                        biznes sistemlərini necə gücləndirdiyini izləyin.
+                    </p>
+                </article>
+
+                <div class="media-box">
+                    <video controls poster="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80">
+                        <source src="https://videos.pexels.com/video-files/3129957/3129957-uhd_2560_1440_25fps.mp4" type="video/mp4">
+                        Brauzeriniz video elementini dəstəkləmir.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="container contact-grid">
+                <article>
+                    <p class="eyebrow">Əlaqə</p>
+                    <h2 id="contact-title">Növbəti IT layihənizə başlayın</h2>
+                    <p>
+                        Nəyə ehtiyacınız olduğunu yazın. Məlumatları nəzərdən keçirib praktik növbəti addımı təklif edəcəyik.
+                    </p>
+                    <address>
+                        41 İnnovasiya prospekti<br>
+                        Bakı, Azərbaycan<br>
+                        <a href="mailto:hello@aztech.example">hello@aztech.example</a>
+                    </address>
+                </article>
+
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <fieldset>
+                        <legend>Layihə məlumatları</legend>
+
+                        <label for="name">Ad və soyad</label>
+                        <input type="text" id="name" name="name" placeholder="Adınızı yazın" required minlength="2">
+
+                        <label for="email">E-poçt ünvanı</label>
+                        <input type="email" id="email" name="email" placeholder="ad@example.com" required>
+
+                        <label for="phone">Telefon nömrəsi</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+994 50 000 00 00" required>
+
+                        <label for="company">Şirkət</label>
+                        <input type="text" id="company" name="company" placeholder="Şirkət adı">
+
+                        <label for="service">Xidmət</label>
+                        <select id="service" name="service" required>
+                            <option value="">Xidmət seçin</option>
+                            <option value="web-development">Veb İnkişaf</option>
+                            <option value="cyber-security">Kiber Təhlükəsizlik</option>
+                            <option value="cloud-computing">Bulud Hesablamaları</option>
+                            <option value="it-consulting">IT Konsaltinq</option>
+                        </select>
+
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Layihənizi təsvir edin" required></textarea>
+
+                        <button class="btn" type="submit">Sorğu göndər</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo footer-logo" href="#home">
+                    <span class="logo-mark">A</span>
+                    AzTech
+                </a>
+                <p>Təhlükəsiz və miqyaslana bilən biznes inkişafı üçün ağıllı rəqəmsal həllər.</p>
+            </div>
+
+            <div>
+                <h3>Sürətli keçidlər</h3>
+                <ul>
+                    <li><a href="#services">Xidmətlər</a></li>
+                    <li><a href="#about">Haqqımızda</a></li>
+                    <li><a href="#projects">Layihələr</a></li>
+                    <li><a href="#contact">Əlaqə</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Sosial şəbəkələr</h3>
+                <div class="footer-social">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 AzTech. Bütün hüquqlar qorunur. HTML5 və CSS3 ilə hazırlanıb.</p>
+    </footer>
+    <button class="back-to-top" type="button" aria-label="Yuxarı qalx">↑</button>
+    <script src="sayt.js"></script>
+</body>
+</html>
