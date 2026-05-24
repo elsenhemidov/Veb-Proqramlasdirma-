@@ -19,8 +19,8 @@ function searchServices() {
     for (let i = 0; i < serviceCards.length; i++) {
         let card = serviceCards[i];
         let cardText = card.textContent.toLowerCase();
-        let cardService = card.dataset.service.toLowerCase();
-        let isMatch = cardText.includes(searchText) || cardService.includes(searchText);
+        
+        let isMatch = cardText.includes(searchText);
 
         if (searchText === "" || isMatch) {
             card.classList.remove("hide-card");
