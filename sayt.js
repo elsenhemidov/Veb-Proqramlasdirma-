@@ -8,11 +8,11 @@ menuButton.addEventListener("click", function () {
 
 // Service search data
 const services = [
-    "Web Development",
-    "Cyber Security",
-    "Cloud Computing",
-    "Network Solutions",
-    "UI/UX Design"
+    "Veb İnkişaf",
+    "Kiber Təhlükəsizlik",
+    "Bulud Hesablamaları",
+    "Şəbəkə Həlləri",
+    "UI/UX Dizayn"
 ];
 
 const searchInput = document.getElementById("site-search-input");
