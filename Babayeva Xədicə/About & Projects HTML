@@ -1,0 +1,92 @@
+<!-- About Section -->
+<section class="section about" id="about" aria-labelledby="about-title">
+    <div class="container about-grid">
+        <article>
+            <p class="eyebrow">AzTech haqqında</p>
+            <h2 id="about-title">Müasir komandalar üçün güvənilir texnologiya tərəfdaşı</h2>
+            <p>
+                Biz proqram mühəndisliyi, kiber təhlükəsizlik, bulud strategiyası və məhsul dizaynını
+                birləşdirərək şirkətlərə stabil, aydın və böyüməyə hazır sistemlər qurmağa kömək edirik.
+            </p>
+
+            <div class="list-columns">
+                <div>
+                    <h3>Prioritetlərimiz</h3>
+                    <ul class="check-list">
+                        <li>Təhlükəsiz arxitektura</li>
+                        <li>Responsiv istifadəçi təcrübəsi</li>
+                        <li>Oxunaqlı və dayanıqlı kod</li>
+                        <li>Ölçülə bilən performans</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>İş prosesimiz</h3>
+                    <ol class="number-list">
+                        <li>Tələbləri öyrənirik</li>
+                        <li>Həlli layihələndiririk</li>
+                        <li>Hazırlayır və test edirik</li>
+                        <li>Yayımlayır və dəstəkləyirik</li>
+                    </ol>
+                </div>
+            </div>
+        </article>
+
+        <aside class="stats-panel" aria-label="Şirkət statistikası">
+            <div class="stat-card">
+                <strong>120+</strong>
+                <span>Layihə</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>50+</strong>
+                <span>Müştəri</span>
+            </div>
+
+            <div class="stat-card">
+                <strong>7+</strong>
+                <span>İl təcrübə</span>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section class="section projects" id="projects" aria-labelledby="projects-title">
+    <div class="container">
+        <div class="section-heading">
+            <p class="eyebrow">Seçilmiş işlər</p>
+            <h2 id="projects-title">Son texnologiya layihələri</h2>
+            <p>Güclü vizual görünüş, təmiz sistem quruluşu və etibarlı nəticə verən praktik layihələr.</p>
+        </div>
+
+        <div class="card-grid project-grid">
+            <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=80" alt="Veb platforma planlayan komanda">
+                <div class="project-body">
+                    <h3>FinCore Müştəri Portalı</h3>
+                    <p>Hesablar, analitika və dəstək sorğuları üçün təhlükəsiz müştəri paneli.</p>
+                    <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=700&q=80" alt="Şəbəkə işıqları olan server infrastrukturu">
+                <div class="project-body">
+                    <h3>CloudOps Miqrasiyası</h3>
+                    <p>Avtomatik ehtiyat nüsxələr və real vaxt performans xəbərdarlıqları ilə hibrid bulud sistemi.</p>
+                    <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=700&q=80" alt="Ekranda kiber təhlükəsizlik paneli">
+                <div class="project-body">
+                    <h3>ShieldNet Təhlükəsizliyi</h3>
+                    <p>Şəbəkə təhlükəsizliyi auditi, endpoint qoruması və əməkdaşlar üçün maarifləndirmə proqramı.</p>
+                    <a href="#contact">Bənzər layihə sifariş et &rarr;</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
